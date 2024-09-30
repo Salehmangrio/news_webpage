@@ -1,0 +1,166 @@
+body {
+  background-color: white;
+  font-size: 18px;
+}
+
+nav .navbar-text {
+  color: purple;
+}
+
+/* background-image: url("../images/pastel2.jpg"); */
+h1 {
+  text-align: center;
+}
+.healthcarePod {
+  border-top-style: solid;
+  border-top-width: 2.5px;
+  border-top-color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.text-center {
+  padding: 60px 0;
+
+  text-align: center;
+}
+
+.text-centered {
+  padding: 50px 0;
+
+  text-align: center;
+}
+
+.linkColor {
+  color: #ff6347;
+}
+
+.innovationHeader {
+  color: black;
+}
+
+.black-background {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.tagline {
+  text-align: center;
+}
+
+.headerTagline {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-outline-success {
+  color: white;
+  background-color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+/* Carousel header */
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+  padding: 10px;
+}
+
+h6 {
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+#loginDetail {
+  text-aligh: center;
+}
+
+.card {
+  box-shadow: 0 1px 2px #fff, 0 -1px 1px #666,
+    inset 0 -1px 1px rgba(0, 0, 0, 0.5),
+    inset 0 1px 1px rgba(255, 255, 255, 0.8);
+  margin: 10px;
+}
+/* 
+align text
+text-align: justify; */
+
+/* .primaryBackground {
+  background-color: black;
+} */
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+img {
+  padding: 10px;
+}
+
+.footer-item {
+  padding-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .card {
+    margin: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+  .logo {
+    width: 200px;
+  }
+  .healthcarePod {
+    font-size: 15px;
+  }
+}
