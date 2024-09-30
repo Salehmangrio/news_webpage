@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- BOOTSTRAP CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Contact - Newsbite</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Economica&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- 1ST NAVIGATION -->
+    <nav
+      class="navbar navbar-expand-lg navbar navbar-dark"
+      style="background-color: black;"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo03"
+        aria-controls="navbarTogglerDemo03"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" 
+              href="./login.html">Login</a>
+            </li> 
+          <li class="nav-item">
+              <a class="nav-link" 
+              href="./register.html">Register</a>
+            </li> 
+
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+        <div class="a-inline my-2 my-lg-0">
+          <a href="https://www.instagram.com/"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+          <a href="https://www.facebook.com/"
+            ><i class="fa fa-facebook-square" aria-hidden="true"></i
+          ></a>
+          <a href="https://www.linkedin.com/"
+            ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- 1ST NAVIGATION ENG -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <img class="logo" src="./images/LOGO.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 2nd nav -->
+
+    <!-- 2ND NAV BAR -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <nav
+            class="navbar navbar-expand-lg navbar-light"
+            style="background-color: white;"
+          >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarTogglerDemo03"
+              aria-controls="navbarTogglerDemo03"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link active" href="./index.html"
+                    >Home <span class="sr-only">(current)</span></a
+                  >
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button
+                  class="btn btn-outline-success my-2 my-sm-0"
+                  type="submit"
+                >
+                  Search
+                </button>
+              </form>
+            </div>
+          </nav>
+          <!-- 2ND NAV BAR END -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <img
+            class="homepageHead"
+            src="./images/darkblue.jpg"
+            alt="Snow"
+            style="width: 100%; height: 200px;"
+          />
+          <div class="carousel-caption text-centered">
+            <h1>Contact</h1>
+          </div>
+        </div>
+      </div>
+
+      <header class="healthcarePod">SUBMIT YOUR PODCAST</header>
+
+      <main>
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <form action="contact.php" method="post" id="contactForm">
+              <div class="form-group row">
+                <label for="f_name" class="col-sm-2 col-form-label">Name:</label>
+                <div class="col-sm-10">
+                  <input
+                    type="text"
+                    name="f_name"
+                    placeholder="Name..."
+                    class="form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="f_email" class="col-sm-2 col-form-label"
+                  >Email:</label
+                >
+                <div class="col-sm-10">
+                  <input
+                    type="email"
+                    name="f_email"
+                    placeholder="Email..."
+                    class="form-control"
+                    required="true"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="f_url" class="col-sm-3 col-form-label">Podcast link:</label>
+                <div class="col-sm-9">
+                  <input
+                    type="url"
+                    name="f_url"
+                    placeholder="link..."
+                    class="form-control"
+                  />
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="f_category" class="col-sm-2 col-form-label"
+                  >Category:</label
+                >
+                <div class="col-sm-10">
+                  <select name="f_category">
+                    <option>Health & Fitness</option>
+                    <option>Sports</option>
+                    <option>Technology</option>
+                    <option>True Crime</option>
+                    <option>Science</option>
+                    <option>Religion & Spirituality</option>
+                    <option>Comedy</option>
+                    <option>Business</option>
+                    <option>Finance</option>
+                    <option>Jobs & Careers</option>
+                    <option>Education</option>
+                    <option>Music</option>
+                    <option>Misc</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                 
+                  <label for="f_option" class="col-sm-12 col-form-label">Has your podcast or episode been referenced in another podcast? (optional)</label>
+                  <div class="col-sm-10">
+
+                      <input type="radio" id="yes" name="f_option" value="Yes">
+                      <label for="male">Yes</label><br>
+                      <input type="radio" id="no" name="option" value="No">
+                      <label for="female">No</label><br>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label for="f_url" class="col-sm-12 col-form-label">If you answered Yes to above, please provide the link to the episode below (optional)</label>
+                    <label for="f_url" class="col-sm-3 col-form-label">Episode link:</label>
+                    <div class="col-sm-9">
+                        <input
+                          type="url"
+                          name="ff_url"
+                          placeholder="link..."
+                          class="form-control"
+                        /> 
+                      </div>
+                  </div>
+                
+
+              <div class="form-group row">
+                <label for="f_message" class="col-sm-2 col-form-label"
+                  >Message</label
+                >
+                <div class="col-sm-10">
+                  <textarea
+                    name="f_message"
+                    placeholder="Please include a brief summary of your podcast..."
+                    class="form-control"
+                  />
+                  </textarea>
+                </div>
+              </div>
+
+              <div class="container">
+                <div class="row justify-content-center">
+                  <input
+                    type="submit"
+                    class="btn btn-primary"
+                    id="formSubmit"
+                  />
+                </div>
+              </div>
+            </form>
+
+            <!-- -->
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Thank you!</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Message you sent:</p>
+
+            <div id="nameDiv">
+              <p><b>Name:</b></p>
+            </div>
+
+            <div id="emailDiv">
+              <p><b>Email:</b></p>
+            </div>
+
+            <div id="podcastDiv">
+              <p><b>Podcast link:</b></p>
+            </div>
+
+            <div id="categoryDiv">
+              <p><b>Category:</b></p>
+            </div>
+
+            <div id="optionDiv">
+                <p><b>Has your podcast or episode been referenced in another podcast? (optional)</b></p>
+              </div>
+
+              <div id="episodeDiv">
+                  <p><b>Episode link:</b></p>
+                </div>
+
+            <div id="messageDiv">
+              <p><b>Message:</b></p>
+            </div>
+
+            <p>Thank you for sending your message, I will respond soon!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="primaryBackground">
+      <div class="footer-item">
+        &#169; Copyright Newsbite
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/contact.js"></script>
+    <!-- <script src="./js/top-five.js"></script> -->
+  </body>
+</html>

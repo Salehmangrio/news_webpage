@@ -1,0 +1,13 @@
+{
+  "name": "innovation-in-health-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  
+  "devDependencies": {
+    "serve": "^11.2.0"
+  }
+}
